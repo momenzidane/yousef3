@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar"   dir="rtl">
+<head>
+	<title>Login V3</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="util.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="style.css">
+<!--===============================================================================================-->
+</head>
+<body>  
+    <nav class="navbar">
+        <img src="munu.png" alt="" width="30px" class="munu" id="munu_id">
+         <ul>
+            <a href="index.html">
+                <li>ترند فاي</li>
+            </a>
+        </ul>
+    </nav>
+    <ul id="mune_data">
+        <li><a href="index.html">home</a></li>
+        <li><a href="add.html">add</a></li>
+        <li><a href="login.html">login</a></li>
+    </ul>
+
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<!-- <span class="login100-form-logo">
+						<i class="zmdi zmdi-landscape"></i>
+					</span> -->
+
+					<span class="login100-form-title p-b-34 p-t-27">
+					انشاء مقال جديد 
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="عنوان المقال">
+						<span class="focus-input100" data-placeholder=""></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder=" ادخل الوسوم">
+						<span class="focus-input100" data-placeholder=""></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter images">
+                        <p class="p-me">* اختر تصنيف المقال</p>
+                        <div class="div_r"> 
+
+                            <input type="radio" id="helth" name="fav_language" value="HTML">
+                            <label for="helth">صحه</label>
+
+                            <span class="span_me"></span>
+
+                            <input type="radio" id="woman" name="fav_language" value="HTML">
+                            <label for="woman">المرأه</label>
+
+                            <span class="span_me"></span>
+
+                            <input type="radio" id="idea" name="fav_language" value="HTML">
+                            <label for="idea">أفكار</label> 
+                            
+                            <span class="span_me"></span>
+
+                            <input type="radio" id="pray" name="fav_language" value="HTML">
+                            <label for="pray">أدعية</label>  
+
+                        </div>
+                        <div class="div_r"> 
+                            <input type="radio" id="Technique" name="fav_language" value="HTML">
+                            <label for="Technique">تقنية</label> 
+
+                            <span class="span_me"></span>
+
+                            <input type="radio" id="Islamic" name="fav_language" value="HTML">
+                            <label for="Islamic">إسلاميات</label> 
+                        </div>
+                    </div>
+
+                 
+                     <p class="p-me-h">* ادخل النص</p>
+					<div class="wrap-input100 validate-input" data-validate="Enter images">
+						<textarea name="area" id="" cols="34" rows="5"></textarea>
+					</div>
+
+                   
+            
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter images">
+						<input class="input100" type="file" name="pass" placeholder="كلمه المرور">
+					</div>
+				
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+						نشر 
+					</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+
+	<script src="main.js"></script>
+
+</body>
+</html>
